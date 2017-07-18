@@ -1,0 +1,537 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+}
+body {
+	background-color: #1b191f;
+	font-family: Microsoft YaHei, Arial, Tahoma;
+}
+.header {
+	height: 115px;
+	margin: 0px auto;
+	position: relative;
+	padding-top: 16px;
+}
+.header .logo-wrap {
+	width: 202px;
+	height: 43px;
+	background: url(../images/bqss-header-logo.png) no-repeat;
+	background-size: 100% 100%;
+}
+.header .title-wrap {
+	
+}
+.header .apply-button {
+	float: right;
+}
+.apply-button span {
+	width: 88px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	margin-left: 12px;
+}
+.apply-button span:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+.apply-button-doc {
+	background: url(../images/btn-apply-doc.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.apply-button-insert {
+	background: url(../images/btn-apply-insert.png) no-repeat;
+	background-size: 100% 100%;
+}
+.header-banner img {
+	width: 100%;
+}
+.advantage-info {
+	width: 975px;
+	margin: 0 auto;
+	padding-top: 105px;
+}
+.header-banner span {
+	font-size: 60px;
+	color: #000000;
+}
+.advantage-info span strong {
+	font-size: 110px;
+	color: #4A4A4A;
+}
+.advantage-wrap {
+	margin: 0 auto;
+} 
+.advantage-wrap .advantage-title {
+	width: 160px;
+	height: 120px;
+	line-height: 120px;
+	color: #fff;
+	font-size: 28px;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../images/bg-advantage.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: 60px;
+}
+.advantage-wrap p {
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0 auto;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+.advantage-intro {
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+.advantage-intro .intro-cell {
+	flex: 1;
+	text-align: center;
+}
+.intro-cell div {
+	width: 168px;
+	height: 168px;
+	margin: 0 auto;
+}
+.intro-cell .intro-cell-1 {
+	background: url(../images/bg-intro-cell2.gif) no-repeat;
+	background-size: 100% 100%;
+}
+.intro-cell .intro-cell-2 {
+	background: url(../images/bg-intro-cell1.gif) no-repeat;
+	background-size: 100% 100%;
+}
+.intro-cell .intro-cell-3 {
+	background: url(../images/bg-intro-cell3.gif) no-repeat;
+	background-size: 100% 100%;
+}
+.intro-cell span {
+	font-size: 20px;
+	color: #fff;
+	margin: 40px auto 8px auto ;
+	display: inline-block;
+}
+.intro-cell p {
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.7);
+}
+.apply-case {
+	background: url(../images/bg-apply-case.png) no-repeat;
+	background-size: 100% 100%;
+}
+.apply-case .case-wrap {
+	margin: 0 auto;
+	overflow: hidden;
+	height: 100%;
+}
+.case-show {
+	height: 604px;
+	position: relative;
+	max-width: 665px;
+}
+.case-img-box {
+	width: 285px;
+	height: 495px;
+	background: url(../images/bg-case-box-iphone.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.case-img-box-large  {
+	width: 665px;
+	height: 425px;
+	background: url(../images/bg-case-box-mac.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+.case-img-box-large img {
+	margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+.case-img-box img {
+	width: 245px;
+	margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+}
+.case-head-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+.case-head-title {
+	padding: 0 6px;
+	font-size: 28px;
+	color: #fff;
+	padding-top: 60px;
+}
+.case-head {
+	margin-left: 70px;
+}
+.case-cell {
+	text-align: center;
+	width: 80px;
+	margin-right: 47px;
+	margin-top: 10px;
+	opacity: 0.6;
+}
+.case-cell-large {
+	text-align: center;
+    width: 80px;
+    margin-right: 20px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+.case-cell:hover,.case-cell-large:hover {
+	cursor: pointer;
+}
+.case-cell.cur,.case-cell-large.cur {
+	opacity: 1;
+}
+.case-cell p,.case-cell-large p {
+	font-size: 16px;
+	color: #fff;
+	margin: 8px auto;
+}
+.case-cell div,.case-cell-large div {
+	width: 68px;
+	height: 68px;
+	margin: 0 auto;
+}
+.case-cell-img1 {
+	background: url(../images/bg-case-cell1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.case-cell-img2 {
+	background: url(../images/bg-case-cell2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.case-cell-img3 {
+	background: url(../images/bg-case-cell3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.case-cell-img4 {
+	background: url(../images/bg-case-cell4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.case-cell-img5 {
+	background: url(../images/bg-case-cell5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.insert-wrap {
+	margin: 0 auto;
+	margin-top: 60px;
+	/*margin-bottom: 30px;*/
+}
+.insert-wrap p {
+	font-size: 28px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.insert-cell {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 100px;
+}
+.insert-cell a {
+	display: inline-block;
+	margin-top: 15px;
+}
+.insert-cell span {
+	width: 235px;
+	height: 60px;
+	display: inline-block;
+}
+.insert-cell .insert-btn1 {
+	background: url(../images/bg-insert-ios-normal.png) no-repeat;
+	background-size: 100% 100%;
+}
+.insert-cell .insert-btn1:hover {
+	background: url(../images/bg-insert-ios-active.png) no-repeat;
+	cursor: pointer;
+}
+.insert-cell .insert-btn2 {
+	background: url(../images/bg-insert-android-normal.png) no-repeat;
+	background-size: 100% 100%;
+}
+.insert-cell .insert-btn2:hover {
+	background: url(../images/bg-insert-android-active.png) no-repeat;
+	cursor: pointer;
+}
+.insert-cell .insert-btn3 {
+	background: url(../images/bg-insert-api-normal.png) no-repeat;
+	background-size: 100% 100%;
+}
+.insert-cell .insert-btn3:hover {
+	background: url(../images/bg-insert-api-active.png) no-repeat;
+	cursor: pointer;
+}
+.online-case {
+	width: 100%;
+	background: url(../images/bg-online-wrap.png) no-repeat;
+	background-size:100% 100% ;
+	margin-top: 20px;
+	padding-bottom: 60px;
+}
+.online-title {
+	width: 160px;
+	height: 120px;
+	line-height: 120px;
+	font-size: 20px;
+	color: #FFFFFF;
+	background: url(../images/bg-online.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 28px;
+}
+.case-wrap-cell {
+	text-align: center;
+}
+.case-wrap-cell span {
+	display: inline-block;
+	margin-top: 30px;
+}
+.case-wrap-cell span img {
+	max-width: 100%;	
+}
+.case-wrap-cell span div {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+}
+.case-wrap-cell span p {
+	font-size: 16px;
+	color: #fff;
+	margin: 10px auto;
+}
+.case-cell-ali {
+	background: url(../images/case-cell-ali.png) no-repeat;
+	background-size: 100% 100%;
+}
+.case-cell-tantan {
+	background: url(../images/case-cell-tantan.png) no-repeat;
+	background-size: 100% 100%;
+}
+.case-cell-fenfen {
+	background: url(../images/case-cell-fenfen.png) no-repeat;
+	background-size: 100% 100%;
+}
+.case-cell-QQ {
+	background: url(../images/case-cell-QQ.png) no-repeat;
+	background-size: 100% 100%;
+}
+.apply-insert {
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 60px;
+	background: url(../images/bg-insert-wrap.png) no-repeat;
+	background-size:100% 100% ;
+}
+.apply-insert a {
+	text-decoration: none;
+}
+.apply-insert p {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 20px;
+	font-size: 20px;
+	padding-bottom: 64px;
+	margin-bottom: 0;
+}
+.apply-insert-btn {
+	width: 328px;
+	height: 68px;
+	display: block;
+	line-height: 68px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	background: url(../images/bg-apply-insert-normal.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+.apply-insert-btn:hover {
+	background: url(../images/bg-apply-insert-active.png) no-repeat;
+	color: #84B3EC;
+	cursor: pointer;
+}
+.footer {
+	width: 100%;
+	height: 260px;
+	position: relative;
+	background: #242326;
+}
+.bqy-logo-wrap .logo {
+	width: 100px;
+	height: 23px;
+	display: inline-block;
+	background: url(../images/bg-bqy-logo.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+    left: 0; 
+}
+.bqy-logo-wrap span {
+	height: 23px;
+	line-height: 23px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #7f7f7f;
+}
+.bqy-logo-wrap span a {
+    color: #7f7f7f;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px;
+}
+.bqy-logo-wrap span a:hover {
+	color: #fff;
+}
+.footer-wrap {
+	margin: 0 auto;
+	padding-top: 32px;
+}
+.bqy-logo-wrap {
+	text-align: center;
+    position: relative;
+}
+
+.connect-info span {
+	color: #898989 !important;
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 6px;
+}
+.connect-qq span a{
+	margin-left: 5px;
+	font-size: 20px;
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+.icon-tel {
+	width: 16px;
+    height: 16px;
+    background: url(../images/icon-connect-tel.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 8px;
+}
+.icon-email {
+	width: 16px;
+    height: 16px;
+    background: url(../images/icon-connect-email.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 8px;
+}
+.email-info a {
+	color: #7f7f7f;
+    text-decoration: none;
+}
+.icon-address {
+	width: 16px;
+    height: 16px;
+    background: url(../images/icon-connect-address.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 8px;
+}
+.connect-info {
+	margin-top: 50px;
+}
+.footer-beian {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: #202021;
+	text-align: center;
+	margin: 0 auto;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #898989;
+	padding: 10px 0;
+}
+.footer-beian span {
+	margin-right: 30px;
+	font-size: 15px;
+}
+.footer-beian span a {
+	color: #7f7f7f;
+	text-decoration: none;
+}
+.footer-beian span a:hover {
+	color: #fff;
+}
+.footer-box {
+	position: relative;
+}
+
+@media (max-width: 768px) {
+	.title-wrap {
+		display: none;
+	}
+	.header {
+		height: 95px;
+	}
+	.advantage-intro {
+		margin-top: 30px;
+	}
+}
+.case-wrap-cell .case-list span{
+	display: block;
+	opacity: 0.7;
+}
+.case-wrap-cell .case-list span.cur {
+	opacity: 1;
+}
+.case-wrap-cell .case-list span:hover {
+	cursor: pointer;
+}
+.case-wrap-cell ul {
+	margin: 0;
+}
+.case-wrap-cell ul li {
+	display: inline-block;
+	padding: 0 35px;
+	height: 200px;
+}
+.case-wrap-cell ul li.slt {
+	background: url(../images/partner_select.png) no-repeat center bottom;
+}
+.case-wrap-cell ul li b {
+	font-size: 16px;
+	color: #FFF;
+	margin: 15px 0;
+	font-weight: normal;
+	display: block;
+}
+.case-content {
+	border: 1px solid #fff;
+	border-radius: 8px;
+	background: #fff;
+	overflow: hidden;
+	max-width: 1020px;
+	margin: 0 auto;
+	margin-top: -1px;
+}
+.partner-boxs span {
+	float: left;
+	display: block;
+	width: 1020px;
+}
+.partner-boxs {
+	overflow: hidden;
+	width: 9999999px;
+}
