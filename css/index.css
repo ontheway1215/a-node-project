@@ -26,6 +26,7 @@ body {
 	width: 1020px;
 	margin: 0 auto;
 	overflow: hidden;
+    margin-top: 30px;
 }
 .search_panel #search_input {
   width: 100%;
@@ -272,7 +273,8 @@ body {
 }
 .footer { 
 	margin: 0 auto;
-	background: #2E2D2F;
+    margin-top: 20px;
+	background: #1a181d;
 	min-width:1020px;
 }
 /*插件*/
@@ -307,7 +309,7 @@ body {
 
 /*流行词*/
 .cut-line-box {
-	width: 95%;
+	width: 99%;
 
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -371,10 +373,13 @@ body {
 .pop-content,.album-content {
 	min-height: 500px;
 }
+.album-content {
+    padding: 0;
+}
 .img-box {
 	width: 240px;
 	height: 240px;
-	margin: 4px;
+	margin: 7px;
 	padding: 0px;
 	float: left;
 	position: relative;
@@ -712,7 +717,28 @@ a:hover {
 .identify_code form {
 	margin-top:20px;
 }
-
+.apology {
+    max-width: 1020px;
+    margin:0 auto;
+    text-align: center;
+    color: #fff
+}
+.apology span {
+    width: 240px;
+    display: inline-block;
+    font-size: 20px;
+}
+.apology span img {
+    width: 100%;
+}
+.apology p {
+    margin: 20px;
+    font-size: 24px;
+}
+.apology a {
+    color: #0065d5;
+    font-size: 16px;
+}
 /*移动端*/
 @media screen and (min-width: 320px) and (max-width : 479px) {
 	body {
@@ -880,6 +906,27 @@ a:hover {
 	}
 }
 
+.album-content p {
+    color: #fff;
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+}
+.album-content ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.album-content ul li {
+    margin: 7px;
+    width: 240px;
+    height: 240px;
+}
+.album-content ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media screen and (min-width: 320px) and (max-width : 320px) {
 	.search-content .img-box, .img-box {
 		height: 150px;
@@ -887,6 +934,10 @@ a:hover {
 	.banner-content ul a {
 		width: 320px;
 	}
+    .album-content ul li {
+        width: 45%;
+        height: 150px;
+    }
 }
 
 @media screen and (min-width: 375px) and (max-width : 375px) {
@@ -896,6 +947,10 @@ a:hover {
 	.banner-content ul a {
 		width: 375px;
 	}
+    .album-content ul li {
+        width: 46%;
+        height: 180px;
+    }
 }
 
 @media screen and (min-width: 412px) and (max-width : 414px) {
@@ -905,4 +960,8 @@ a:hover {
 	.banner-content ul a {
 		width: 412px;
 	}
+    .album-content ul li {
+        width: 46%;
+        height: 200px;
+    }
 }

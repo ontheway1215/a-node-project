@@ -52,14 +52,14 @@ $(".album-content .img-box").click(function () {
 	q = decodeURIComponent(text);
 	p = 1;
 });
-$(document).on("click", ".album-content .img-box", function () {
-	var text = $(this).find(".cover-text").text();
-	q = decodeURIComponent(text);
-	p = 1;
-	// bqss_search(p, q);
-	$("#search_input_value").val(q);
-	document.location.href = document.location.origin + '/search/' + q;
-});
+// $(document).on("click", ".album-content .img-box", function () {
+// 	var text = $(this).find(".cover-text").text();
+// 	q = decodeURIComponent(text);
+// 	p = 1;
+// 	// bqss_search(p, q);
+// 	$("#search_input_value").val(q);
+// 	document.location.href = document.location.origin + '/search/' + q;
+// });
 
 //ajax请求
 var callAjax = function (url, callback) {
